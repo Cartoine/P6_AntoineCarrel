@@ -7,7 +7,7 @@ const userRoutes = require('./routes/user');
 
 const path = require('path');
 
-mongoose.connect('mongodb+srv://Cartoine:iSRNlS61BgLq4w7H@cluster0.nl2qa.mongodb.net/myFirstDatabase?retryWrites=true&w=majority',
+mongoose.connect(`mongodb+srv://`+ process.env.DB_USER`:`+ process.env.DB_PASSWORD + `@` + process.env.HOST`/`+ process.env.DB_NAME`?retryWrites=true&w=majority`,
 { useNewUrlParser: true,
     useUnifiedTopology: true })
     .then(() => console.log('Connexion à MongoDB réussie !'))
