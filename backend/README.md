@@ -6,13 +6,13 @@
 
 ## 2. Cloner le Ffont
 
-> ➡️ $ git clone https://github.com/OpenClassrooms-Student-Center/Web-Developer-P6.git
+> ➡️ $ git clone <https://github.com/OpenClassrooms-Student-Center/Web-Developer-P6.git>
 >
 > - suivez le README.MD du front
 
 ## 3. Cloner le back
 
-> ➡️ $ git clone https://github.com/OpenClassrooms-Student-Center/Web-Developer-P6.git
+> ➡️ $ git clone <https://github.com/OpenClassrooms-Student-Center/Web-Developer-P6.git>
 > ➡️ cd backend
 > ➡️ npm install
 > ➡️ créer les dossiers manquant
@@ -34,7 +34,7 @@
 > 4️⃣ Créer les autorisation d'accées a la bdd dans accés au réseau (autoriser l'accés de n'importe ou)
 > 5️⃣ dans databses -> connect -> Connect your application
 > 6️⃣ copier le liens et renplacer les éléments dans le .env
-> mongodb+srv://**<span style="color:#cbac77">DB_USER</span>**:<**<span style="color:#cbac77">DB_PASSWORD</span>**>@**<span style="color:#cbac77">HOST</span>**/**<span style="color:#cbac77">DB_NAME</span>**?retryWrites=true&w=majority
+> mongodb+srv://**DB_USER**:<**>DB_PASSWORD**>@**HOST<**/**DB_NAME**?retryWrites=true&w=majority
 
 ### 🔒 Fichier .env
 
